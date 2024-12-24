@@ -10,6 +10,7 @@
   "article_name",
   "image",
   "author",
+  "age",
   "column_break_vlga",
   "isbn",
   "status",
@@ -83,6 +84,11 @@
    "fieldname": "published",
    "fieldtype": "Check",
    "label": "Published"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
   }
  ],
  "has_web_view": 1,
@@ -90,7 +96,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2024-12-24 12:13:49.589020",
+ "modified": "2024-12-24 14:58:29.248331",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
